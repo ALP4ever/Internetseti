@@ -12,8 +12,8 @@ export const App = () => {
   return (
     <>
       <Router>
-        <Header />
-        <main>
+        <Header/>
+        <main className="bg-amber-800 w-full caret-amber-50 min-h-[80vh]">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
